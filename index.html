@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoes Product Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        img {
+            max-width: 50%;
+            height: 10;
+        }
+
+        .product-info {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .reviews {
+            margin-top: 20px;
+        }
+
+        .review {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        .buy-now-btn {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #3498db;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="product-info">
+            <img id="productImage" src="1.png" alt="Shoes">
+            <h2>NIKE JORDAN mens Dunk High Retro (sneakers)</h2>
+            <p id="productDescription">A high quality shoes usually of leather with flat sole it is good for playing BASKETBALLIntroducing the epitome of athletic elegance – the Nike Jordan Shoes. Crafted with precision and inspired by the legendary Michael Jordan, these iconic shoes seamlessly blend performance and style., .</p>
+        </div>
+
+        <a href="https://www.amazon.com/Nike-Mens-DD1399-White-University/dp/B09YVV4FLG/ref=sr_1_29?crid=282P3VOTSTPMX&keywords=nike+jordan+red+white&qid=1705037312&sprefix=nike+jordan+red+whit%2Caps%2C460&sr=8-29"><button id="buyNowBtn" class="buy-now-btn">Buy Now</button></a>
+        
+                                
+            <div class="review">
+                <p>Great shoes! Very comfortable and stylish.</p>
+                <p>- george 1</p>
+            </div>
+
+            <div class="review">
+                <p>Excellent quality. I love them!</p>
+                <p>- sab 2</p>
+            </div>
+
+            <!-- Add more reviews as needed -->
+        </div>
+    </div>
+
+    <script>
+        // JavaScript code for dynamic updates
+        document.getElementById('buyNowBtn').addEventListener('click', function() {
+            alert('Item added to cart!');
+            // You can add additional functionality here, like updating a shopping cart.
+        });
+    </script>
+</body>
+</html>
